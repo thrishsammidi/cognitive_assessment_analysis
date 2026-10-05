@@ -1,0 +1,269 @@
+Classify every question independently on two dimensions:
+
+1. Cognitive process:
+   Remember, Understand, Apply, Analyze, Evaluate, Create
+
+2. Knowledge type:
+   Factual, Conceptual, Procedural, Metacognitive
+
+Base classification on the cognitive work required by the student, not the command verb, marks, question length, subject, or difficulty.
+
+Do not provide hidden chain-of-thought. Return only the requested concise rationale and evidence.
+
+1. COGNITIVE PROCESS
+
+REMEMBER
+Retrieve previously learned information.
+
+Use for:
+
+* naming, listing, defining, identifying
+* stating known facts, principles, rules, formulas
+* reproducing a standard taught diagram, table, sequence, or representation
+* MCQs where the answer is a specific memorized fact
+
+Do not upgrade Remember merely because the question says select, identify, draw, write, or state.
+
+UNDERSTAND
+Construct or interpret meaning from learned knowledge.
+
+Use when the student must:
+
+* explain or describe meaning
+* interpret
+* compare/differentiate
+* classify using a concept
+* explain a straightforward cause or relationship
+
+If a novel set must be classified using a known concept, use Understand rather than Remember.
+
+APPLY
+Use known knowledge, rules, principles, formulas, or procedures in a specific case.
+
+Use for:
+
+* calculations and formula substitution
+* balancing equations
+* applying a rule to a particular situation or diagram
+* using a known procedure
+* predicting an outcome, observation, or consequence from a taught principle in a specified situation
+
+Prediction rule:
+"What will happen/occur/be observed?" → Apply when the answer requires applying a known principle to the given situation, even if the question also asks for a reason or justification.
+
+ANALYZE
+Examine components, relationships, patterns, causes, structures, interactions, or evidence.
+
+Use when the student must:
+
+* examine relationships among multiple components
+* identify patterns or causes
+* compare interacting systems
+* infer relationships from data/observations
+* examine several labelled claims against established facts
+
+A multi-part question is not automatically Analyze. Difficulty and number of facts do not determine Analyze.
+
+For MCQs containing several labelled statements:
+
+* Fact-checking each statement against known facts/relationships → Analyze
+* Weighing merit, suitability, preferability, or competing alternatives → Evaluate
+
+EVALUATE
+Make or defend a judgment about validity, merit, suitability, effectiveness, acceptability, or preferability using evidence, criteria, principles, or reasoning.
+
+"Justify" is Evaluate when the student must defend the validity/soundness/acceptability of a proposition or judgment.
+
+"Justify" is not automatically Evaluate when it merely asks for a causal explanation or application of a known principle.
+
+CREATE
+Generate something genuinely new: a design, plan, model, solution, procedure, investigation, or configuration.
+
+Create requires generation/design beyond simple recall or straightforward application.
+
+Do NOT use Create merely because the question says:
+
+* suggest
+* construct
+* draw
+* write
+* formulate
+
+Examples:
+
+* Recall two known waste-management measures → Remember
+* Arrange given organisms into a food chain using known trophic relationships → Apply
+* Design a new experimental setup → Create
+
+
+2. KNOWLEDGE TYPE
+
+Classify knowledge type independently of cognitive process.
+
+FACTUAL
+Specific information:
+names, terminology, dates, labels, examples, particular facts, properties, or details.
+
+Use Factual when the answer is primarily a specific piece of information.
+
+CONCEPTUAL
+Relationships among elements:
+principles, theories, models, classifications, systems, structures, and cause-effect relationships.
+
+Use Conceptual when the answer depends on understanding how ideas or elements relate.
+
+PROCEDURAL
+Knowledge of how to perform something:
+algorithms, methods, techniques, procedures, operational rules, calculations, laboratory procedures, or construction methods.
+
+Use Procedural when the knowledge concerns how to perform an operation.
+
+METACOGNITIVE
+Knowledge about one's own cognition, learning, thinking, or strategies for regulating thinking.
+
+Do not use Metacognitive merely because a question asks for an explanation, reflection, or strategy.
+
+Important:
+
+* Remember ≠ automatically Factual
+* Apply ≠ automatically Procedural
+* Drawing ≠ automatically Procedural
+* A question may involve a procedure cognitively while the underlying knowledge being tested is conceptual.
+
+
+3. HIGH-VALUE BOUNDARY RULES
+REMEMBER vs UNDERSTAND
+
+* Fixed taught fact/table/diagram → Remember
+* Explaining or interpreting meaning → Understand
+* Applying a concept to a novel classification/set → Understand
+
+UNDERSTAND vs APPLY
+
+* Explain a straightforward known relationship → Understand
+* Use a known principle in a specific case or predict its consequence → Apply
+
+UNDERSTAND vs ANALYZE
+
+* Explain one straightforward relationship → Understand
+* Examine multiple relationships, causes, patterns, structures, or interactions → Analyze
+
+APPLY vs ANALYZE
+
+* Execute a known rule/procedure in a particular case → Apply
+* Infer/examine relationships, patterns, or interactions among components/data → Analyze
+* A difficult calculation can still be Apply.
+
+ANALYZE vs EVALUATE
+
+* Determine which claims are factually correct → Analyze
+* Judge/defend validity, merit, suitability, effectiveness, or preferability → Evaluate
+
+EVALUATE vs CREATE
+
+* Judge an existing claim/solution/option → Evaluate
+* Generate a genuinely new solution/design/plan → Create
+
+
+4. SPECIAL CASES
+MCQs
+Multiple-choice format does not raise Bloom level.
+A single memorized fact → Remember.
+Several labelled claims requiring fact-checking → Analyze.
+
+DIAGRAMS
+
+* Standard fixed taught representation → Remember
+* Form depends on values/conditions in the question → Apply
+* New experimental design/arrangement → Create + Procedural
+
+FORMULAS
+
+* State/write a known formula → Remember + Procedural
+* Use it to calculate → Apply + Procedural
+
+CLASSIFICATION SYSTEMS
+Questions about relationships, advantages, limitations, or organization within a classification system/model/law → Conceptual knowledge.
+
+GENETIC CROSSES
+Predicting/calculating inheritance outcomes or ratios → Conceptual knowledge, not automatically Procedural.
+
+ASSERTION–REASON
+
+* Recognize/explain a learned relationship → Remember/Understand
+* Examine the assertion–reason relationship → Analyze
+* Judge validity using evidence/criteria → Evaluate
+
+COMPOUND QUESTIONS
+Do not automatically choose the highest Bloom level.
+
+* Separately mark-allocated subparts → use the subpart with the plurality of marks.
+* If not separately marked → use the final substantive subtask.
+* If neither resolves it → use the dominant overall cognitive demand.
+
+OR QUESTIONS
+Treat clearly separate alternatives as separate input rows. Do not combine their Bloom levels.
+
+MISSING CONTEXT
+Do not invent missing diagrams, tables, or information.
+Classify the visible task.
+Lower confidence only when the missing context creates genuine classification ambiguity.
+
+
+5. DECISION ORDER
+
+For each question, silently ask:
+
+1. Is the student retrieving information?
+   → Remember
+
+2. Explaining/interpreting meaning?
+   → Understand
+
+3. Using a known rule/principle/procedure in a specific case?
+   → Apply
+
+4. Examining relationships/patterns/causes/interactions/evidence?
+   → Analyze
+
+5. Making or defending a judgment using evidence/criteria?
+   → Evaluate
+
+6. Generating a genuinely new product/design/solution?
+   → Create
+
+Then independently determine:
+Factual / Conceptual / Procedural / Metacognitive.
+
+6. OUTPUT
+Return exactly one classification for every input question, in the same order.
+
+Do not omit, merge, split, or reorder questions.
+
+For each question return:
+
+* cognitive_process
+* knowledge_type
+* rationale
+* evidence
+* confidence
+
+Rationale: maximum 20 words; explain the decisive cognitive operation.
+
+Evidence: maximum 12 words; identify the wording/task supporting the classification.
+
+Confidence: 0–1; lower it when genuine ambiguity or missing context exists.
+
+FINAL CHECK:
+
+* Correct number and order.
+* Cognitive process reflects the actual task, not the command verb.
+* Knowledge type is independent of cognitive process.
+* Prediction in a specific situation → Apply.
+* Multi-claim fact-checking → Analyze.
+* Genuine judgment/defense → Evaluate.
+* Genuine generation/design → Create.
+* Standard taught representation → Remember.
+* No invented missing context.
+* Rationale/evidence concise.
+
